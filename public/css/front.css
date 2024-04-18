@@ -1,0 +1,119 @@
+body {
+    padding: 10px;
+    margin: 0px;
+    width: 99vw;
+    height: 100vh;
+  }
+  .navbar {
+    /* font-family: "Yeseva One", cursive; */
+    font-family: "Merriweather", serif;
+  }
+  .navbar-brand {
+    color: white !important;
+  }
+  .nav-link {
+    color: white !important;
+  }
+  .nav-link:hover {
+    color: rgb(79, 78, 78) !important;
+  }
+  
+  .left {
+    font-family: "Yeseva One", cursive;
+    margin-top: 8rem;
+    margin-left: 8rem;
+  }
+  .left h1 {
+    font-size: 3rem;
+  }
+  .left p {
+    line-height: 2.4rem;
+    margin-top: 1rem;
+    font-size: 1.5rem;
+    color: rgb(94, 95, 95);
+  }
+  .right {
+    margin-top: 3rem;
+    /* margin-left: 5rem; */
+  }
+  h1 hr {
+    height: 3px;
+    width: 2em;
+    /* font-family: "Yeseva One", cursive; */
+    background-color: #030027;
+  }
+  .right-1 p {
+    line-height: 2.5rem;
+    font-size: 1.2rem;
+    font-family: "Yeseva One", cursive;
+    color: rgb(94, 95, 95);
+  }
+  .right-1 h1 {
+    /* font-family: "Yeseva One", cursive; */
+    font-family: "Merriweather", serif;
+    font-size: 3rem;
+  }
+  
+  .footer-1 {
+    /* background-color: #45a049; */
+    color: rgb(239, 233, 233);
+    font-family: "Merriweather", serif;
+  }
+  .footer-social-icon {
+    display: flex;
+    justify-content: center;
+  }
+  .footer-social-icon a {
+    text-decoration: none;
+  }
+  
+  .footer-social-icon a {
+    font-size: 2rem;
+    color: rgb(240, 240, 240);
+    opacity: 0.9;
+  }
+  
+  .footer-social-icon a :hover {
+    background-color: #ede8e8;
+    transition: 0.5s;
+  }
+  .footer-social-icon a :hover {
+    color: #1283e0;
+    transition: 0.5s;
+  }
+  /* Add media query for tablet size */
+  @media (max-width: 768px) {
+    .right img {
+      height: 70%; /* Adjust width as needed */
+      margin-top: 3rem;
+    }
+  }
+  
+  /* Add media query for mobile size */
+  @media (max-width: 576px) {
+    .right img {
+      width: 500%; /* Adjust width as needed */
+      margin-top: 3rem;
+    }
+    .left {
+      margin-left: 1rem;
+    }
+  }
+  @media (max-width: 768px) {
+    .left-1 img {
+      height: 70%;
+      margin-top: 5rem;
+    }
+  }
+  
+  /* Add media query for mobile size */
+  @media (max-width: 576px) {
+    .left-1 img {
+      height: 600%;
+      margin-top: 5rem;
+    }
+    .right-1 {
+      margin-left: 4rem;
+    }
+  }
+  
